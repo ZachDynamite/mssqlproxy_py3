@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # Copyright (c) 2020 BlackArrow
 #
@@ -23,7 +23,7 @@ import os
 import logging
 
 import socket
-import thread
+import _thread as thread
 import select
 
 from impacket.examples import logger
